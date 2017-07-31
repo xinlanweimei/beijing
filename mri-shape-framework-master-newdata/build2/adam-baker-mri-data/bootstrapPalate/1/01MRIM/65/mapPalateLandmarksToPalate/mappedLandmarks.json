@@ -1,0 +1,102 @@
+[
+	{
+		"name" : "BackRight",
+		"sourceIndex" : 31,
+		"sourceX" : 15.439737319946289,
+		"sourceY" : 7.900970458984375,
+		"sourceZ" : -18.886310577392578,
+		"targetX" : 15.681597819614638,
+		"targetY" : 31.005100336548793,
+		"targetZ" : 3.4019987115677512
+	},
+	{
+		"name" : "FrontTeethCenter",
+		"sourceIndex" : 93,
+		"sourceX" : -21.223335266113281,
+		"sourceY" : 7.8129806518554688,
+		"sourceZ" : 0.36362457275390625,
+		"targetX" : -0.31840044951783852,
+		"targetY" : -0.9948993007262743,
+		"targetZ" : -0.59799963231715481
+	},
+	{
+		"name" : "SlopeEndedCenter",
+		"sourceIndex" : 118,
+		"sourceX" : -3.818871021270752,
+		"sourceY" : -7.5165557861328125,
+		"sourceZ" : -0.821044921875,
+		"targetX" : -0.31839975458954939,
+		"targetY" : 16.005100096855443,
+		"targetZ" : 15.401999800700883
+	},
+	{
+		"name" : "SlopeMiddleCenter",
+		"sourceIndex" : 291,
+		"sourceX" : -14.247865676879883,
+		"sourceY" : 0.85791015625,
+		"sourceZ" : 0.54940032958984375,
+		"targetX" : -0.31840012615491275,
+		"targetY" : 8.0051003803463914,
+		"targetZ" : 7.4020000841918669
+	},
+	{
+		"name" : "SlopeEndedLeft",
+		"sourceIndex" : 481,
+		"sourceX" : -5.4903435707092285,
+		"sourceY" : 5.6559982299804688,
+		"sourceZ" : 15.870750427246094,
+		"targetX" : -14.318400678201854,
+		"targetY" : 16.005099422021317,
+		"targetZ" : 0.40200165731998361
+	},
+	{
+		"name" : "BackLeft",
+		"sourceIndex" : 664,
+		"sourceX" : 15.451988220214844,
+		"sourceY" : 4.138275146484375,
+		"sourceZ" : 20.165920257568359,
+		"targetX" : -14.318401117294059,
+		"targetY" : 31.00509889047575,
+		"targetZ" : 3.4020015510108959
+	},
+	{
+		"name" : "SlopeMiddleLeft",
+		"sourceIndex" : 922,
+		"sourceX" : -14.341920852661133,
+		"sourceY" : 6.4329833984375,
+		"sourceZ" : 10.863582611083984,
+		"targetX" : -11.318400398891498,
+		"targetY" : 8.005099850119592,
+		"targetZ" : 0.4020013733756489
+	},
+	{
+		"name" : "BackCenter",
+		"sourceIndex" : 948,
+		"sourceX" : 16.241846084594727,
+		"sourceY" : -5.1055374145507812,
+		"sourceZ" : -1.2285041809082031,
+		"targetX" : -0.31840047762607071,
+		"targetY" : 31.005099565309848,
+		"targetZ" : 15.401999800700919
+	},
+	{
+		"name" : "SlopeMiddleRight",
+		"sourceIndex" : 955,
+		"sourceX" : -14.194740295410156,
+		"sourceY" : 8.4564895629882812,
+		"sourceZ" : -9.3896751403808594,
+		"targetX" : 11.68159869142373,
+		"targetY" : 8.0051009587755857,
+		"targetZ" : -0.59800076809438885
+	},
+	{
+		"name" : "SlopeEndedRight",
+		"sourceIndex" : 975,
+		"sourceX" : -5.8683438301086426,
+		"sourceY" : 8.5533981323242188,
+		"sourceZ" : -14.191600799560547,
+		"targetX" : 13.681598424227701,
+		"targetY" : 16.005100771689484,
+		"targetZ" : 1.4019989717366723
+	}
+]

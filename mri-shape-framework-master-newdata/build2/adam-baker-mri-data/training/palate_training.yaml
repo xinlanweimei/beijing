@@ -1,0 +1,5 @@
+meta: {speakerAmount: 1, phonemeAmount: 1}
+data:
+- name: 01MRIM
+  phonemes:
+  - {prompt: palate, path: /home/szh/mri-shape-framework-master-newdata/build/adam-baker-mri-data/01MRIM/65/procrustesPalate/procrustes.ply}

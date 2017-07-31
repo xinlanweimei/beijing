@@ -1,0 +1,18 @@
+% ∂‘≥∆¥¶¿Ì
+close all;
+clear all;
+clc;
+load speechorgans.mat;
+planes = 27;
+for i = 1 : planes
+    SPEEORG.ORGS(1 , 9).contour{1 , i + 18}(1 , :) = SPEEORG.ORGS(1 , 7).contour{1 , i + 18}(16 , :);
+    SPEEORG.ORGS(1 , 9).contour{1 , i + 18}(5 , :) = SPEEORG.ORGS(1 , 7).contour{1 , i + 18}(1 , :);
+    SPEEORG.ORGS(1 , 9).contour{1 , i + 18}(6 , :) = SPEEORG.ORGS(1 , 7).contour{1 , i + 18}(15 , :);
+    SPEEORG.ORGS(1 , 9).contour{1 , i + 18}(10 , :) = SPEEORG.ORGS(1 , 7).contour{1 , i + 18}(30 , :);
+    for j = 2 : 4
+    SPEEORG.ORGS(1 , 9).contour{1 , i + 18}(j + 5 , 1) = SPEEORG.ORGS(1 , 9).contour{1 , i + 18}(6 - j , 1);
+    SPEEORG.ORGS(1 , 9).contour{1 , i + 18}(j + 5 , 2) = 512 - SPEEORG.ORGS(1 , 9).contour{1 , i + 18}(6 - j , 2);
+    end
+end
+savename = strcat('.\' , 'speechorgans.mat');
+save(savename , 'SPEEORG');

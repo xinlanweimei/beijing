@@ -1,0 +1,44 @@
+[
+    {
+        "prompt": "i",
+        "speaker": "01MRIM",
+        "missing": false,
+        "id": "69"
+    },
+    {
+        "prompt": "e",
+        "speaker": "01MRIM",
+        "missing": false,
+        "id": "76"
+    },
+    {
+        "prompt": "ɛ",
+        "speaker": "01MRIM",
+        "missing": false,
+        "id": "73"
+    },
+    {
+        "prompt": "ɑ",
+        "speaker": "01MRIM",
+        "missing": false,
+        "id": "68"
+    },
+    {
+        "prompt": "ʌ",
+        "speaker": "01MRIM",
+        "missing": false,
+        "id": "74"
+    },
+    {
+        "prompt": "o",
+        "speaker": "01MRIM",
+        "missing": false,
+        "id": "77"
+    },
+    {
+        "prompt": "u",
+        "speaker": "01MRIM",
+        "missing": false,
+        "id": "70"
+    }
+]

@@ -1,0 +1,30 @@
+[
+	{
+		"components" : 1,
+		"variability" : 0.90069847039240569
+	},
+	{
+		"components" : 2,
+		"variability" : 0.95531512996662526
+	},
+	{
+		"components" : 3,
+		"variability" : 0.98835620924271883
+	},
+	{
+		"components" : 4,
+		"variability" : 0.99504914726977667
+	},
+	{
+		"components" : 5,
+		"variability" : 0.99952820730970249
+	},
+	{
+		"components" : 6,
+		"variability" : 1.0000000000000004
+	},
+	{
+		"components" : 7,
+		"variability" : 1
+	}
+]

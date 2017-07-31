@@ -1,0 +1,32 @@
+[
+	{
+		"components" : 1,
+		"mean" : 0.51583147158128817,
+		"standardDeviation" : 0.089979015077357977
+	},
+	{
+		"components" : 2,
+		"mean" : 0.43203435727950856,
+		"standardDeviation" : 0.13654888177807581
+	},
+	{
+		"components" : 3,
+		"mean" : 0.30411955589007983,
+		"standardDeviation" : 0.10664186026661496
+	},
+	{
+		"components" : 4,
+		"mean" : 0.2902272491143415,
+		"standardDeviation" : 0.10419968038527344
+	},
+	{
+		"components" : 5,
+		"mean" : 0.20581070454464226,
+		"standardDeviation" : 0.088568235228438749
+	},
+	{
+		"components" : 6,
+		"mean" : 0.20581110618029461,
+		"standardDeviation" : 0.088568470882994244
+	}
+]

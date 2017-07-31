@@ -1,0 +1,6 @@
+close all;
+clear all;
+clc;
+load tr2.mat;
+im_tngsl=imread(002_a_2_20.tif);
+

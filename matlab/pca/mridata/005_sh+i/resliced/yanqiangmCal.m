@@ -1,0 +1,34 @@
+close all;
+clear all;
+clc;
+load speechorgans.mat;
+load t_tr.mat;
+
+speechNum = 14;
+index = 0;
+
+y = 260 : 4 : 368;
+for i = 1 : length(y)
+    a = SPEEORG.ORGS(1 , 6).contour{1 , i + 20};
+    a1 = a(: , 1);
+    a2 = a(: , 2);
+    for j = 1 : size(a , 1)
+        b(1 , index + j) = a1(j);
+        b(1 , index + size(a , 1) + j) = y(i);
+        b(1 , index +  2 * size(a , 1) + j) = 256 - a2(j);
+    end
+    index = index + 3 * size(a , 1);
+end
+
+ wall(speechNum , :) = b(1 , :);
+
+ savename = strcat('E:\ÑÊÇ»±Ú\wall\single\' , 'wall_sh+i.mat');
+save(savename , 'wall');
+save('.\wall_sh+i.mat','wall');
+% save('.\t_tr.mat' , 'tongue_tr');
+for i = 1 : length(y)
+    wallxx(:,i) = b(3 * 25 * (i - 1) + 1:3 * 25 * (i - 1) + 25);
+    wallyy(:,i) = b(3 * 25 * (i - 1) + 1 + 25:3 * 25 * (i - 1) + 50);
+    wallzz(:,i) = b(3 * 25 * (i - 1) + 1 + 50:3 * 25 * (i - 1) + 75);
+end
+surf(wallxx,wallyy,wallzz);

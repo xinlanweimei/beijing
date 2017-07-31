@@ -1,0 +1,11 @@
+meta: {speakerAmount: 1, phonemeAmount: 7}
+data:
+- name: 01MRIM
+  phonemes:
+  - {prompt: e, path: /home/szh/mri-shape-framework-master-newdata/build/adam-baker-mri-data/01MRIM/76/mapTongueToPalate/mapped.ply}
+  - {prompt: i, path: /home/szh/mri-shape-framework-master-newdata/build/adam-baker-mri-data/01MRIM/69/mapTongueToPalate/mapped.ply}
+  - {prompt: o, path: /home/szh/mri-shape-framework-master-newdata/build/adam-baker-mri-data/01MRIM/77/mapTongueToPalate/mapped.ply}
+  - {prompt: u, path: /home/szh/mri-shape-framework-master-newdata/build/adam-baker-mri-data/01MRIM/70/mapTongueToPalate/mapped.ply}
+  - {prompt: ɑ, path: /home/szh/mri-shape-framework-master-newdata/build/adam-baker-mri-data/01MRIM/68/mapTongueToPalate/mapped.ply}
+  - {prompt: ɛ, path: /home/szh/mri-shape-framework-master-newdata/build/adam-baker-mri-data/01MRIM/73/mapTongueToPalate/mapped.ply}
+  - {prompt: ʌ, path: /home/szh/mri-shape-framework-master-newdata/build/adam-baker-mri-data/01MRIM/74/mapTongueToPalate/mapped.ply}

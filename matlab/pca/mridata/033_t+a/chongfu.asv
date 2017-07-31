@@ -1,0 +1,21 @@
+close all;
+clear all;
+clc;
+load speechorgans.mat;
+for i=1:1
+a = SPEEORG.ORGS(1 , 9).contour{1 , 13 + i};
+a1=a(1:15,2);
+    for j=1:15
+        for k=2:15
+             
+            if a1(j)==a1(k)
+                a1(j)
+                
+        
+            end
+        end
+        a2=a1(1);
+        a1(1)=a1(j);
+        a1(j)=a2;
+    end
+end
